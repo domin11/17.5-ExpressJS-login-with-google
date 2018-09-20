@@ -1,0 +1,11 @@
+html
+  head
+    meta(charset='UTF-8')
+    title ExpressJS Login with Google
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css')
+    style
+      include ../css/index.css
+  body
+    h1 ExpressJS Login with Google
+    form(action='http://localhost:3000/auth/google', method='GET')
+      button.btn.btn-primary.my-1(type='submit') Login
